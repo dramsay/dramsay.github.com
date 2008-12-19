@@ -1,12 +1,28 @@
+body { background-color: #666; }
+.container { background-color: #FFF; }
+
+h1 {
+	padding: 10px;
+	text-shadow: #666 1px 1px 1px;
+}
+
+h2 { padding: 0 10px; }
+
 h3 {
 	color: #EEE;
 	background-color: #666;
 	padding: 10px;
+	text-shadow: #000 1px 1px 1px;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
 }
 
 a { color: #777; }
 
-.vcard { font-size: 1.3em;}
+.vcard { 
+	font-size: 1.3em;
+	padding-left: 10px;
+}
 
 .email { 
 	display: block; 
@@ -27,7 +43,9 @@ a { color: #777; }
 	padding: 10px;
 	width: 290px;
 	background-color: #EEE;
-	border-bottom: 1px solid #FFF;
+	margin-bottom: 2px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
 }
 
 .nav a:hover {
@@ -35,4 +53,13 @@ a { color: #777; }
 	background-color: #666;
 }
 
-.footer { text-align: right; }
+.footer div { 
+	text-align: right;
+	padding: 0 10px 10px 10px; 
+}
+
+.container {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
